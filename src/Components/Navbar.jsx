@@ -29,13 +29,13 @@ function Navbar(props) {
         <a className="nav-link" href="/profile">Profile</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/templateSelection">Dashboard</a>
+        <a className="nav-link" href="/dashboard">Dashboard</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/gptIntegration">Previous Scan</a>
+        <a className="nav-link" href="/previousScan">Previous Scan</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/resumeMaker">New Scan</a>
+        <a className="nav-link" href="/nextScan">New Scan</a>
       </li>
       
       {/* <li className="nav-item dropdown">

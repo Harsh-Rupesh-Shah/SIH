@@ -14,6 +14,7 @@ import { Modals } from './Components/Modals';
 import { jwtDecode } from 'jwt-decode';
 import Cookies from 'js-cookie';
 import { tryReLog } from './Components/apiService';
+import Dashboard from './Components/dashboard';
 // import { createStore } from 'react-redux';
 // import rootReducer from './reducers'
 const token = getToken();
@@ -121,6 +122,7 @@ function App() {
       <Route path="/reset-password" element={<ResetPasswordForm />} />
       {/* <Route path="/gptIntegration" element={<GptIntegration/>}/> */}
       <Route path="/crud" element={<Crud/>}/>
+      <Route path='/dashboard' element={<Dashboard/>}/>
       {/* <Route path="/resumeMaker" element={<ResumeMaker/>}/> */}
       {/* <Route path="/templateSelection" element={<TemplateSelection/>}/> */}
     </Routes>
