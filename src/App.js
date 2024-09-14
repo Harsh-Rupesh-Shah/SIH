@@ -15,6 +15,7 @@ import { jwtDecode } from 'jwt-decode';
 import Cookies from 'js-cookie';
 import { tryReLog } from './Components/apiService';
 import Dashboard from './Components/dashboard';
+import PreviousScan from './Components/previousScan';
 // import { createStore } from 'react-redux';
 // import rootReducer from './reducers'
 const token = getToken();
@@ -123,6 +124,8 @@ function App() {
       {/* <Route path="/gptIntegration" element={<GptIntegration/>}/> */}
       <Route path="/crud" element={<Crud/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
+      <Route path='/previousScan' element={<PreviousScan/>}/>
+
       {/* <Route path="/resumeMaker" element={<ResumeMaker/>}/> */}
       {/* <Route path="/templateSelection" element={<TemplateSelection/>}/> */}
     </Routes>
