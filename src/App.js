@@ -16,6 +16,8 @@ import Cookies from 'js-cookie';
 import { tryReLog } from './Components/apiService';
 import Dashboard from './Components/dashboard';
 import PreviousScan from './Components/previousScan';
+import HomePage from './Components/Home';
+import ScanSummary from './Components/ScanSummary';
 // import { createStore } from 'react-redux';
 // import rootReducer from './reducers'
 const token = getToken();
@@ -118,13 +120,14 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path="/" element={isTokenValid(getToken()) ? <Navigate to="/profile" /> : <Login2 />} />
-      <Route path="/home" element={<Home/>}/>
+      <Route path="/home" element={<HomePage/>}/>
       <Route path="/profile" element={<Profile/>} />
       <Route path="/reset-password" element={<ResetPasswordForm />} />
       {/* <Route path="/gptIntegration" element={<GptIntegration/>}/> */}
       <Route path="/crud" element={<Crud/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/previousScan' element={<PreviousScan/>}/>
+      <Route path='/ScanSummary' element={<ScanSummary/>}/>
 
       {/* <Route path="/resumeMaker" element={<ResumeMaker/>}/> */}
       {/* <Route path="/templateSelection" element={<TemplateSelection/>}/> */}

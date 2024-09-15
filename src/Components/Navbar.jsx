@@ -23,7 +23,7 @@ function Navbar(props) {
   <div className="collapse navbar-collapse a-div" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+        <a className="nav-link" href="/home">Home <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/profile">Profile</a>
@@ -36,6 +36,9 @@ function Navbar(props) {
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/nextScan">New Scan</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="/ScanSummary">Scan Summary</a>
       </li>
       
       {/* <li className="nav-item dropdown">

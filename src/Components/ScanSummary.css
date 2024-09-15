@@ -1,0 +1,73 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Dashboard and Sections */
+.app .dashboard {
+    padding: 40px;
+}
+
+.app .audit-report, .self-assessment {
+    margin: 40px 0;
+}
+
+/* Cards Container */
+.app .report-cards, .assessment-cards {
+    display: flex;
+    justify-content: space-around; /* Ensures even spacing */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 40px;
+}
+
+/* Card Styles */
+.app .card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    width: 30%; /* Set a standard width for all cards */
+}
+
+/* Hover Effects */
+.app .card:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+}
+
+/* Chart Styles */
+.app .chart, .bar-chart {
+    height: 60px;
+    background-color: #4a90e2;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Typography */
+.app h2, h3, h4 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.app footer {
+    background-color: #202840;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.app .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
