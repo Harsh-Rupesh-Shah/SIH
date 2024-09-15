@@ -17,7 +17,7 @@ import { tryReLog } from './Components/apiService';
 import Dashboard from './Components/dashboard';
 import PreviousScan from './Components/previousScan';
 import HomePage from './Components/Home';
-import ScanSummary from './Components/ScanSummary';
+import ScanSummary from './Components/scanSummary';
 // import { createStore } from 'react-redux';
 // import rootReducer from './reducers'
 const token = getToken();
