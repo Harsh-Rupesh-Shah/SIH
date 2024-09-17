@@ -17,7 +17,8 @@ import { tryReLog } from './Components/apiService';
 import Dashboard from './Components/dashboard';
 import PreviousScan from './Components/previousScan';
 import HomePage from './Components/Home';
-import ScanSummary from './Components/scanSummary';
+import ScanSummary from './Components/ScanSummary';
+import NewScan from './Components/NewScan';
 // import { createStore } from 'react-redux';
 // import rootReducer from './reducers'
 const token = getToken();
@@ -128,6 +129,7 @@ function App() {
       <Route path='/dashboard' element={<Dashboard/>}/>
       <Route path='/previousScan' element={<PreviousScan/>}/>
       <Route path='/ScanSummary' element={<ScanSummary/>}/>
+      <Route path='/newScan' element={<NewScan/>}/>
 
       {/* <Route path="/resumeMaker" element={<ResumeMaker/>}/> */}
       {/* <Route path="/templateSelection" element={<TemplateSelection/>}/> */}

@@ -39,12 +39,12 @@ function ScanSummary() {
                   <div className="assessment-cards">
                     <div className="card">
                       <h4>Previous</h4>
-                      <div className="bar-chart">Miss Configured Controls: 100%</div>
+                      <div className="bar-chart">Mis-Configured Controls: 100%</div>
                       <div className="bar-chart">Not Configured Controls: 45%</div>
                     </div>
                     <div className="card">
                       <h4>Current</h4>
-                      <div className="bar-chart">Miss Configured Controls: 30%</div>
+                      <div className="bar-chart">Mis-Configured Controls: 30%</div>
                       <div className="bar-chart">Not Configured Controls: 15%</div>
                     </div>
                   </div>

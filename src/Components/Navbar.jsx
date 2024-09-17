@@ -35,7 +35,7 @@ function Navbar(props) {
         <a className="nav-link" href="/previousScan">Previous Scan</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="/nextScan">New Scan</a>
+        <a className="nav-link" href="/newScan">New Scan</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/ScanSummary">Scan Summary</a>
